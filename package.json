@@ -1,0 +1,21 @@
+{
+  "name": "@neocxf/vdom-ex1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html --out-dir=dist --open",
+    "compile": "babel src/vdom-jsx.js --copy-files --watch --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.3.3",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-transform-react-jsx": "7.3.0",
+    "nodemon": "1.18.10"
+  },
+  "dependencies": {}
+}
